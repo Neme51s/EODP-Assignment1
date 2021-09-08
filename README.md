@@ -11,4 +11,4 @@ matplotlib\
 json\
 re\
 seaborn\
-nltk\
+nltk
