@@ -114,7 +114,7 @@ def task5():
     t5file.close()
     bar_data = pd.read_csv("task5.csv")
     plt.bar(bar_data["club_name"], bar_data["number_of_mentions"])
-    plt.xticks(rotation=50)
+    plt.xticks(rotation=90)
     plt.xlabel("Club")
     plt.ylabel("Number of mentions")
     plt.title("Number of articles mentioning each club")
